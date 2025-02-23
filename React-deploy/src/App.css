@@ -1,0 +1,116 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: 0px 20px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.aldrich-regular {
+  font-family: "Aldrich", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #a9c3ba;
+  color: #58625f;
+  font-family: 'Aldrich';
+}
+
+#section-1, #section-2 {
+  float: left;
+  width: 45%;
+}
+
+#section-1 {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 150px;
+  margin-top: 0px;
+}
+
+h1, h2 {
+  text-align: left;
+}
+
+h1 + div {
+  float: left;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0px;
+}
+
+li {
+  border: 1px solid white;
+  padding: 10px;
+  /* border-radius: 10px; */
+  /* width: 50vw; */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form > div, form > div + div {
+  float: left;
+  margin-left: 10px;
+}
+
+form > div, form > div + div, h2 + div {
+  text-align: left;
+}
+
+input[type="text"] {
+  height: 30px;
+  font-family: 'Aldrich';
+  font-size: 16px;
+}
+
+button {
+  border-radius: 0px;
+}
+
+button:hover {
+  background-color: #a9c3ba;
+  border: 1px solid #000;
+  color: #000;
+} 
