@@ -1,8 +1,19 @@
-# React + Vite
+# Company Hitlist 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+On the prowl for the job hunt? This company hitlist can help you make your target! Just enter the company's name and role and add it to the list!
 
-Currently, two official plugins are available:
+## Upcoming features:
+- Delete items
+- Change themes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+and so much more!
+
+## Installation
+
+Clone repo
+run npm install
+
+## Usage
+
+npm run dev
+Navigate to localhost:1573
